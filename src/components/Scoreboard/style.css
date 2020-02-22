@@ -1,9 +1,10 @@
 .navbar {
   width: 100%;
-  text-align: center;
-  padding: 30px;
+  text-align: left;
+  padding: 20px;
   font-size: 2rem;
-
-  color: black;
+  background-color: black;
+  color: white;
   margin-bottom: 50px;
+  opacity: 90%;
 }

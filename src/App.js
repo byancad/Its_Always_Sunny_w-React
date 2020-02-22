@@ -67,7 +67,7 @@ class App extends Component {
           Losses: {this.state.loss} Wins: {this.state.win} Score:{" "}
           {this.state.score} TopScore: {this.state.topscore}
         </Scoreboard>
-        <Title>Clicky Game!</Title>
+        <Title>Its Always Sunny in Philadelphia Clicky Game!</Title>
         {this.state.friends.map(friend => (
           <FriendCard
             clickCount={this.clickCount}

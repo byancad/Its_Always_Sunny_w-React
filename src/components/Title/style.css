@@ -4,7 +4,19 @@
   margin: 0px 0px 0px 0px;
   text-align: center;
   font-size: 3rem;
-  color: black;
+  color: white;
+
   margin-bottom: 100px;
   margin-top: 70px;
+  /* background-color: grey; */
+  opacity: 80%;
+}
+.jumbotron {
+  margin-top: 80px;
+  /* background-color: grey; */
+  opacity: 80%;
+  background-image: url(https://assets.fxnetworks.com/cms/prod/2019/08/22/web_detailhero_series_dsktp_its-always-sunny-in-philadelphia_1280x600.jpg?resize=1170:*);
+}
+h1.display-4 {
+  font-weight: 600;
 }
