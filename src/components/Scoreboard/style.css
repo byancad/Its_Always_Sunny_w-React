@@ -1,8 +1,9 @@
-.title {
+.navbar {
   width: 100%;
   text-align: center;
-  font-size: 3rem;
-  text-decoration: underline;
-  color: #2a77ae;
+  padding: 30px;
+  font-size: 2rem;
+
+  color: black;
   margin-bottom: 50px;
 }

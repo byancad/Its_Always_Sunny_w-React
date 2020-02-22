@@ -64,12 +64,10 @@ class App extends Component {
     return (
       <Wrapper>
         <Scoreboard>
-          You lost: {this.state.loss}
-          wins: {this.state.win}
-          score: {this.state.score}
-          TopSore: {this.state.topscore}
+          Losses: {this.state.loss} Wins: {this.state.win} Score:{" "}
+          {this.state.score} TopScore: {this.state.topscore}
         </Scoreboard>
-        <Title>Memory Game</Title>
+        <Title>Clicky Game!</Title>
         {this.state.friends.map(friend => (
           <FriendCard
             clickCount={this.clickCount}
