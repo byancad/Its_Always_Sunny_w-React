@@ -1,6 +1,5 @@
 # Its Always Sunny in Philadelphia Memory game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## **Overview**
 This memory game is an app built completely in react
