@@ -1,0 +1,19 @@
+.scoreboard {
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  font-size: 1.5rem;
+  background-color: $header-backgroundcolor;
+  color: $header-color;
+  margin-bottom: 50px;
+  opacity: 90%;
+  height: 70px;
+  @media (max-width: #{$medium-breakpoint}) {
+    width: 100%;
+  }
+  @media (max-width: #{$small-breakpoint}) {
+    width: 100%;
+    font-size: 0.5rem;
+    height: 40px;
+  }
+}

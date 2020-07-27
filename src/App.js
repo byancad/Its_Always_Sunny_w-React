@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import Scoreboard from "./components/Scoreboard";
 
 import friends from "./friends.json";
+import CardGrid from "./components/Grid";
 
 class App extends Component {
   // Setting this.state.friends to the friends json array
@@ -68,14 +68,7 @@ class App extends Component {
           {this.state.score} TopScore: {this.state.topscore}
         </Scoreboard>
         <Title>Its Always Sunny in Philadelphia Clicky Game!</Title>
-        {this.state.friends.map(friend => (
-          <FriendCard
-            clickCount={this.clickCount}
-            id={friend.id}
-            key={friend.id}
-            image={friend.image}
-          />
-        ))}
+        <CardGrid friends={this.state.friends} clickCount={this.clickCount} />
       </Wrapper>
     );
   }

@@ -1,0 +1,28 @@
+.card {
+  float: left;
+  width: 700px / 960px * 150%;
+  height: 300px;
+  width: 300px;
+  margin: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+  img {
+    height: 300px;
+    width: 300px;
+  }
+  @media (max-width: #{$medium-breakpoint}) {
+    width: 40%;
+    background-color: blue;
+    margin: 2%;
+    margin-left: -10px;
+  }
+  @media (max-width: #{$small-breakpoint}) {
+    width: 200px;
+    height: 150px;
+    padding-top: -10px;
+    img {
+      height: 150px;
+      width: 200px;
+    }
+  }
+}
